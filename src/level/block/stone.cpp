@@ -1,7 +1,7 @@
 #include "air_block.h"
 
-AirBlock::AirBlock(unsigned int ID) : Block(ID) {
-}
+// AirBlock::AirBlock(unsigned short ID) : Block(ID) {
+// }
 
-void AirBlock::render(glm::vec3 position) {
-}
+// void AirBlock::render(glm::vec3 position) {
+// }

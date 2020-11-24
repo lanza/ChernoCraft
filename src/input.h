@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <vector>
-#include <SDL2/SDl.h>
+#include <SDL.h>
 
 class Input {
 private:
