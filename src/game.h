@@ -7,14 +7,15 @@
 
 class Game {
 private:
-    Screen screen;
-    bool running = false;
-    Input input;
-    Level *level;
+  Screen screen;
+  bool running = false;
+  Input input;
+  Level *level;
+
 public:
-    Game(const char *title, int width, int height);
-    ~Game();
-    bool is_running();
-    void update();
-    void render();
+  Game(const char *title, int width, int height);
+  ~Game();
+  bool is_running();
+  void update();
+  void render();
 };

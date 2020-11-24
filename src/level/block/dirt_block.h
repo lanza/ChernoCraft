@@ -5,5 +5,5 @@
 class DirtBlock : public Block {
 private:
 public:
-    DirtBlock(unsigned short ID);
+  DirtBlock(unsigned short ID);
 };

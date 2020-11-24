@@ -5,5 +5,5 @@
 class StoneBlock : public Block {
 private:
 public:
-    StoneBlock(unsigned short ID);
+  StoneBlock(unsigned short ID);
 };

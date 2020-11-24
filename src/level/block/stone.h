@@ -5,6 +5,6 @@
 class AirBlock : public Block {
 private:
 public:
-    AirBlock(unsigned int ID);
-    void render(glm::vec3 position);
+  AirBlock(unsigned int ID);
+  void render(glm::vec3 position);
 };
